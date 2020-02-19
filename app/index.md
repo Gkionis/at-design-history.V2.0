@@ -1,18 +1,18 @@
 ---
 layout: product
-title: Build static websites using GOV.UK styles, components and patterns
-description: The familarity of the [GOV.UK Design System](https://design-system.service.gov.uk) combined with the simplicity of the [Eleventy](https://www.11ty.io) static site generator.
+title: Academy Transfers design history 
+description: The repository of iterations during discovery and alpha.
 breadcrumbs: false
 ---
 {% from "govuk/components/tag/macro.njk" import govukTag %}
 {{ govukTag({
   classes: "govuk-!-margin-bottom-4",
-  text: "Experimental"
+  text: "Alpha"
 }) }}
 
-Consumes [govuk-frontend](https://github.com/alphagov/govuk-frontend) with additional support for [Markdown formatted documents](/docs/markdown).
 
-<iframe src="https://ghbtns.com/github-btn.html?user=paulrobertlloyd&repo=govuk-11ty&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+
+
 
 <hr class="govuk-section-break govuk-section-break--visible">
 
