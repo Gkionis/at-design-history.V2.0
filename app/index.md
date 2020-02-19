@@ -1,7 +1,7 @@
 ---
 layout: product
 title: Academy Transfers design history 
-description: The repository of iterations during discovery and alpha.
+description: A repository of user research in discovery and iterations during alpha.
 breadcrumbs: false
 ---
 {% from "govuk/components/tag/macro.njk" import govukTag %}
@@ -18,24 +18,17 @@ breadcrumbs: false
 
 {% from "document-list/macro.njk" import appDocumentList %}
 <div class="govuk-grid-row">
-  <section class="govuk-grid-column-one-third">
-    <h2 class="govuk-heading-l govuk-!-font-size-27">Getting started</h2>
+  <section class="govuk-grid-column-one-half">
+    <h2 class="govuk-heading-l govuk-!-font-size-27">Discovery</h2>
     {{ appDocumentList({
-      items: collections["getting-started"]
+      items: collections["ur"]
     }) | safe }}
   </section>
 
-  <section class="govuk-grid-column-one-third">
-    <h2 class="govuk-heading-l govuk-!-font-size-27">Layouts</h2>
+  <section class="govuk-grid-column-one-half">
+    <h2 class="govuk-heading-l govuk-!-font-size-27">Alpha</h2>
     {{ appDocumentList({
       items: collections["layout"]
-    }) | safe }}
-  </section>
-
-  <section class="govuk-grid-column-one-third">
-    <h2 class="govuk-heading-l govuk-!-font-size-27">Components</h2>
-    {{ appDocumentList({
-      items: collections["component"]
     }) | safe }}
   </section>
 </div>
