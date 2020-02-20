@@ -9,9 +9,7 @@ breadcrumbs: false
 <div class="govuk-grid-row">
   <section class="govuk-grid-column-one-half">
     <h2 class="govuk-heading-l govuk-!-font-size-27">Discovery</h2>
-    {{ appDocumentList({
-      items: collections["layout"]
-    }) | safe }}
+    {{ appDocumentList({ items: collections["getting-started"] }) | safe }}
   </section>
 
   <section class="govuk-grid-column-one-half">
